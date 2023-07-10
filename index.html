@@ -39,6 +39,20 @@
             margin-bottom: 10px;
         }
 
+        .navtab li{
+            display: inline-block;
+        }
+
+        .icon li{
+            display: inline;
+        }
+
+        .li1:hover{
+            color: #275CFF;
+            background-color: aqua;
+            
+        }
+
     </style>
 </head>
 
@@ -62,13 +76,15 @@
 
         <nav>
             <div class="nav">
-                <a href="home.html" target="myFrame1" class="navbar">Home</a>
-                <a href="techStack.html" target="myFrame1" class="navbar">TechStack</a>
-                <a href="education.html" target="myFrame1" class="navbar">Education</a>
-                <a href="project.html" target="myFrame1" class="navbar">Projects</a>
-                <a href="experience.html" target="myFrame1" class="navbar">Experience</a>
-                <a href="profile.html" target="myFrame1" class="navbar">About Me</a>
-                <a href="contact_me.html" target="myFrame1" class="navbar">Contacts me</a>
+                <ul class="navtab">
+                    <li class="li1"><a href="home.html" target="myFrame1" class="navbar">Home</a></li>
+                    <li class="li1"><a href="techStack.html" target="myFrame1" class="navbar">TechStack</a></li>
+                    <li class="li1"><a href="education.html" target="myFrame1" class="navbar">Education</a></li>
+                    <li class="li1"><a href="project.html" target="myFrame1" class="navbar">Projects</a></li>
+                    <li class="li1"><a href="experience.html" target="myFrame1" class="navbar">Experience</a></li>
+                    <li class="li1"><a href="profile.html" target="myFrame1" class="navbar">About Me</a></li>
+                    <li class="li1"><a href="contact_me.html" target="myFrame1" class="navbar">Contacts me</a></li>
+                </ul>          
             </div><br>
         </nav>
         <div>
@@ -77,21 +93,15 @@
 
         <footer>
             <div>
-
-                <span style="font-size: large;">Follow Me on:</span>
-
-                <a href="https://github.com/ParthGurval" target="_blank" id="clr"><i class="fa fa-2x fa-github-square"aria-hidden="true" id="clr"></i></a>
-
-                <a href="https://www.linkedin.com/in/parth-gurval-44b96417a" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" id="clr"></i></a>
-
-                <a href="https://instagram.com/_parth.2001_?igshid=MjEwN2IyYWYwYw==" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true" id="clr"></i></a>
-
-                <a href="https://www.facebook.com/parth.gurval?mibextid=LQQJ4d" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="clr"></i></a>
-
-                <a href="https://twitter.com/home" target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="clr"></i></a>
-
-                <p>Copyright &copy; '2023 Tech Coder Communcation, Inc All Rights reserved</p>
-
+                <ul class="icon">
+                    <li><span style="font-size: large;">Follow Me on:</span></li>
+                    <li><a href="https://github.com/ParthGurval" target="_blank" id="clr"><i class="fa fa-2x fa-github-square"aria-hidden="true" id="clr"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/parth-gurval-44b96417a" target="_blank"><i class="fa fa-2x fa-linkedin-square" aria-hidden="true" id="clr"></i></a></li>
+                    <li><a href="https://instagram.com/_parth.2001_?igshid=MjEwN2IyYWYwYw==" target="_blank"><i class="fa fa-2x fa-instagram" aria-hidden="true" id="clr"></i></a></li>
+                    <li><a href="https://www.facebook.com/parth.gurval?mibextid=LQQJ4d" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" id="clr"></i></a></li>
+                    <li><a href="https://twitter.com/home" target="_blank"><i class="fa fa-2x fa-twitter-square" aria-hidden="true" id="clr"></i></a></li>
+                    <li><p>Copyright &copy; '2023 Tech Coder Communcation, Inc All Rights reserved</p></li>  
+            </ul>
             </div>
         </footer>
     </fieldset>
